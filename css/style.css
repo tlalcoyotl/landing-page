@@ -194,14 +194,25 @@ div.quote {
     flex-direction: column;
     align-items: center;
     flex-shrink: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+div.quote-wrap {
+    max-width: 80%;
 }
 
 p.inspiring {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    width: 52%;
     flex-shrink: 0;
+}
+
+p.thor {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: right;
 }
 
 /*For call to action section*/
