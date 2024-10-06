@@ -35,7 +35,7 @@ ul {
 .call,
 .footer {
     display: flex;
-    padding: 20px 200px;
+    padding: 20px 10vw;
 }
 
 /*For .top*/
@@ -59,12 +59,16 @@ ul.links {
 }
 
 .header a{
+    font-size: 18px;
+    color: #e5e7eb;
     text-decoration: none;
     color: #ffffff;
 }
 
 .h-logo a {
+    font-size: 24px;
     font-weight: 900;
+    color: #f9faf8
 }
 
 .hero-container {
@@ -199,7 +203,7 @@ div.quote {
 }
 
 div.quote-wrap {
-    max-width: 80%;
+    max-width: 52%;
 }
 
 p.inspiring {
@@ -216,6 +220,43 @@ p.thor {
 }
 
 /*For call to action section*/
+
+div.call {
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+div.call-wrap {
+    background-color:#3882f6;
+    color: #f9faf8;
+    padding: 48px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+    max-width: 70%;
+    flex: 1;
+    border-radius: 18px
+}
+
+.call-left h3 {
+    font-size: 24px;
+}
+
+.call-left p {
+    color: #e5e7eb;
+}
+
+.call-right button {
+    border: 2px solid #f9faf8;
+    border-radius: 0.5em;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 0.3em 1em;
+    font-size: 18px;
+}
 
 /*For footer section*/
 
