@@ -111,11 +111,12 @@ ul.links {
     border: none;
     border-radius: 8px;
     padding: 0.5em 1em;
+    font-size: 18px;
 }
 
 .hero-left button:hover {
-    background-color: #60daff;
-    color: #000000;
+    background-color: #60a0ff;
+    color: #1f2937;
 }
 
 .hero-right {
@@ -135,8 +136,8 @@ ul.links {
     border-radius: 20px;
 }
 
-.hero-right img:hover {
-    filter: contrast(90%)
+img:hover {
+    filter: contrast(80%)
 }
 
 /*For .information*/
@@ -258,8 +259,19 @@ div.call-wrap {
     font-size: 18px;
 }
 
+.call-right button:hover {
+    background-color: #60a0ff;
+    color: #1f2937;
+}
+
 /*For footer section*/
 
 div.footer {
     background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
